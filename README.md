@@ -11,3 +11,6 @@ Machine instruction structure:
 parameter1  parameter2  opcode          operand   operand   E,R,A
                                         address   address 
                                         source    target
+
+
+
