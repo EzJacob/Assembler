@@ -72,5 +72,15 @@ Below is a description of the addressing methods in this machine:
 
 __________________________________________________________________________
 
+**Assembly**
 
+To convert an assembly file you need to enter the command: "./assembler" followed by the name of the files you want to assemble with space between them.<br>
+For Example: ./assembler ex1 ex2 ex3 ex4<br>
+The input will be a file with a ".as" extension. For example the file: ex1.as<br>
+The output will a file with a ".am" extension and a file with ".ob" extension. For example: ex1.am ex1.ob<br>
+The file with ".am" extension is a file simillar to the original input but if there were macros in the input file they will be parsed in the ".am" file.<br>
+The file with ".ob" extension contains the binary code of the assembly.<br>
+If in the input file there are entry or extern directives then there could be 2 more files as outputs with the extension of ".ent" and ".ext". For example: ex1.ent ex1.ext
+
+__________________________________________________________________________
 
