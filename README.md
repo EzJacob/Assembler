@@ -59,3 +59,17 @@ If the parameter is a register, the bits will get 11.
 
 If the parameter is a label name, the bits will be set to 0
 
+__________________________________________________________________________
+
+Below is a description of the addressing methods in this machine:
+
+| number | method address | The content of the additional words | The way of writing | Example |
+| -------- | -------- | -------- | -------- | -------- |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 | aaa | aaa |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | aa | aaa |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 | aa | aaa |
+
+__________________________________________________________________________
+
+
+
