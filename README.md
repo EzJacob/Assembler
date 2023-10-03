@@ -65,9 +65,10 @@ Below is a description of the addressing methods in this machine:
 
 | number | method address | The content of the additional words | The way of writing | Example |
 | -------- | -------- | -------- | -------- | -------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 | aaa | aaa |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | aa | aaa |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 | aa | aaa |
+| 0 | Immediate addressing | The additional word of the instruction contains the operand itself, which is a number represented in 12 bits, to them A pair of bits is added from the field A, R, E | The operand starts with # and after it and next to it A whole number appears in the base decimal | mov #-1,r2 In this example the operand The first of the command Given by address method immediate The teaching is writing the value -1 into r2 register |
+| 1 | Row 2, Col 2 | Row 2, Col 3 | aa | aaa |
+| 2 | Row 3, Col 2 | Row 3, Col 3 | aa | aaa |
+| 3 | Row 3, Col 2 | Row 3, Col 3 | aa | aaa |
 
 __________________________________________________________________________
 
