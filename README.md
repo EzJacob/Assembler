@@ -66,7 +66,7 @@ Below is a description of the addressing methods in this machine:
 | number | method address | The content of the additional words | The way of writing | Example |
 | -------- | -------- | -------- | -------- | -------- |
 | 0 | Immediate addressing | The additional word of the instruction contains the operand itself, which is a number represented in 12 bits, to them A pair of bits is added from the field A, R, E | The operand starts with # and after it and next to it A whole number appears in the base decimal | mov #-1,r2 In this example the operand The first of the command Given by address method immediate The teaching is writing the value -1 into r2 register |
-| 1 | Row 2, Col 2 | Row 2, Col 3 | aa | aaa |
+| 1 | Direct addressing | The additional word of the instruction contains address of a word in memory. this word In memory is the operand. The addressee is represented in 12 bits to which a pair of bits is added from the field A, R, E | The operand is a label already stated or which will be stated later in the file. The statement is made by writing a label in the start of the instruction '.data' or '.string' or or at the beginning instruction of the program or using an operand of '.extern' directive | For example, the definition is given: x: .data 23 You can write an instruction: Dec. x In this example, the instruction Decreases your content by 1 the word in the address x in memory (the "variable" x) |
 | 2 | Row 3, Col 2 | Row 3, Col 3 | aa | aaa |
 | 3 | Row 3, Col 2 | Row 3, Col 3 | aa | aaa |
 
