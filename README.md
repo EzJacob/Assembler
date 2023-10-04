@@ -20,9 +20,12 @@ Machine instruction structure:
 param1_______param2_______opcode_________op-source___op-dest___E,R,A
 __________________________________________________________________________
 
-Command names: mov, cmp, add, sub, not, clr, lea, inc, dec, jmp, bne, red, prn, jsr, rts, stop
+Command names and the commands code in decimal respectively:
 
-The commands code in decimal respectively: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+
+| mov | cmp | add | sub | not | clr | lea | inc | dec | jmp | bne | red | prn | jsr | rts | stop |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 
 __________________________________________________________________________
 
