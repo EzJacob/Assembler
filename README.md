@@ -15,9 +15,9 @@ There is only support for positive and negative integers.
 __________________________________________________________________________
 Machine instruction structure:
 
-13--12________11--10________9--8--7--6________5--4________3--2________1--0
-
-param1_______param2_______opcode_________op-source___op-dest___E,R,A
+| 13--12 | 11--10 | 9--8--7--6 | 5--4 | 3--2 | 1--0 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| parameter1 | parameter2 | opcode | operand source | operand destination |  E, R, A |
 __________________________________________________________________________
 
 Command names and the commands code in decimal respectively:
@@ -29,7 +29,7 @@ Command names and the commands code in decimal respectively:
 
 __________________________________________________________________________
 
-*bits 0-1 A,R,E:* These bits indicate the type of encoding, whether it is 'Absolute', 'External' or 'Relocatable'. 
+bits 0-1 A,R,E: These bits indicate the type of encoding, whether it is 'Absolute', 'External' or 'Relocatable'. 
 
 A value of 00 means that the encoding is absolute. 
 
@@ -42,11 +42,11 @@ The additional words that these codes have.
 
 __________________________________________________________________________
 
-*Bits 2-3:* encode the address method number of the destination operand (destination operand).
+Bits 2-3: encode the address method number of the destination operand (destination operand).
 
 __________________________________________________________________________
 
-*Bits 4-5:* encode the number of the addressing method of the source operand (source operand).
+Bits 4-5: encode the number of the addressing method of the source operand (source operand).
 
 __________________________________________________________________________
 
