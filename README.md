@@ -15,7 +15,7 @@ There is only support for positive and negative integers.
 __________________________________________________________________________
 Machine instruction structure:
 
-| 13  12 | 11  10 | 9  8  7  6 | 5  4 | 3  2 | 1  0 |
+| 13__12 | 11__10 | 9__8__7__6 | 5__4 | 3__2 | 1__0 |
 | -------- | -------- | -------- | -------- | -------- | -------- |
 | parameter1 | parameter2 | opcode | operand source | operand destination |  E, R, A |
 __________________________________________________________________________
