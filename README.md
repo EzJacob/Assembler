@@ -17,7 +17,7 @@ Machine instruction structure:
 
 | 13__12 | 11__10 | 9__8__7__6 | 5__4 | 3__2 | 1__0 |
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| parameter1 | parameter2 | opcode | operand source | operand destination |  E, R, A |
+| parameter1 | parameter2 | opcode | source operand | destination operand |  E, R, A |
 __________________________________________________________________________
 
 Command names and the commands code in decimal respectively:
