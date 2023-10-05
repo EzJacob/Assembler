@@ -13,7 +13,7 @@ The size of each general register is 14 bits.
 
 There is only support for positive and negative integers.
 __________________________________________________________________________
-Machine instruction structure:
+Basic instruction format:
 
 | 13__12 | 11__10 | 9__8__7__6 | 5__4 | 3__2 | 1__0 |
 | -------- | -------- | -------- | -------- | -------- | -------- |
