@@ -1,0 +1,9 @@
+mov r1,r1 
+lol:.string "hey hey" 
+inc lol 
+not r3
+sub #-3,    r6
+sub r2   ,   loop
+loop:stop 
+jmp loop 
+red lol 
